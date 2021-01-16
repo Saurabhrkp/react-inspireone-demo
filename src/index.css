@@ -1,0 +1,9 @@
+body {
+  background-image: linear-gradient(to bottom, #080037, #4f0060);
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: white !important;
+  font-weight: 500;
+}
