@@ -15,7 +15,7 @@ const NavBar = () => {
         id='navbar'
         className='px-4 mx-auto'
       >
-        <Navbar.Brand href='#home'>
+        <Navbar.Brand href='https://www.masteroapp.com/sales-enablement-platform'>
           <img
             src={logo}
             className='d-inline-block align-top mx-4'
@@ -26,7 +26,10 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mx-auto py-0'>
-            <Nav.Link href='#home' className='mx-3'>
+            <Nav.Link
+              href='https://www.masteroapp.com/sales-enablement-platform'
+              className='mx-3'
+            >
               Platform
             </Nav.Link>
             <NavDropdown
@@ -34,26 +37,44 @@ const NavBar = () => {
               id='basic-nav-dropdown'
               className='mx-3'
             >
-              <NavDropdown.Item href='#' className='text-black-50'>
+              <NavDropdown.Item
+                href='https://www.masteroapp.com/sales-enablement/'
+                className='text-black-50'
+              >
                 Sales Enablement
               </NavDropdown.Item>
-              <NavDropdown.Item href='#' className='text-black-50'>
+              <NavDropdown.Item
+                href='https://www.masteroapp.com/product-knowledge/'
+                className='text-black-50'
+              >
                 Product Knowledge
               </NavDropdown.Item>
-              <NavDropdown.Item href='#' className='text-black-50'>
+              <NavDropdown.Item
+                href='https://www.masteroapp.com/customer-service/'
+                className='text-black-50'
+              >
                 Customer Service
               </NavDropdown.Item>
-              <NavDropdown.Item href='#' className='text-black-50'>
+              <NavDropdown.Item
+                href='https://www.masteroapp.com/leadership-development/'
+                className='text-black-50'
+              >
                 Leadership Development
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href='#link' className='mx-3'>
+            <Nav.Link
+              href='https://www.masteroapp.com/client-success/'
+              className='mx-3'
+            >
               Client Success
             </Nav.Link>
-            <Nav.Link href='#link' className='mx-3'>
+            <Nav.Link
+              href='https://www.masteroapp.com/resources/'
+              className='mx-3'
+            >
               Resources
             </Nav.Link>
-            <Nav.Link href='#link' className='mx-3'>
+            <Nav.Link href='https://www.masteroapp.com/blog/' className='mx-3'>
               Blog
             </Nav.Link>
             <Button className='mx-3 bg-orange'>Schedule a demo</Button>

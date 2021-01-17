@@ -11,31 +11,102 @@ const Footer = () => {
       <Row className='mt-5 mb-3'>
         <Col lg={3} md={12}>
           <div className='footer-link-header'>Platform</div>
-          <a className='footer-links'>For Front Line Sales</a>
-          <a className='footer-links'>For Sales Trainers</a>
-          <a className='footer-links'>For Content Creators</a>
-          <a className='footer-links'>For Sales Managers</a>
-          <a className='footer-links'>For Sales Leaders</a>
+          <a
+            href='https://www.masteroapp.com/sales-enablement-platform'
+            className='footer-links'
+          >
+            For Front Line Sales
+          </a>
+          <a
+            href='https://www.masteroapp.com/sales-enablement-platform'
+            className='footer-links'
+          >
+            For Sales Trainers
+          </a>
+          <a
+            href='https://www.masteroapp.com/sales-enablement-platform'
+            className='footer-links'
+          >
+            For Content Creators
+          </a>
+          <a
+            href='https://www.masteroapp.com/sales-enablement-platform'
+            className='footer-links'
+          >
+            For Sales Managers
+          </a>
+          <a
+            href='https://www.masteroapp.com/sales-enablement-platform'
+            className='footer-links'
+          >
+            For Sales Leaders
+          </a>
         </Col>
         <Col lg={3} md={12}>
           <div className='footer-link-header'>Solutions</div>
-          <a className='footer-links'>Selling Skills</a>
-          <a className='footer-links'>Product Knowledge</a>
-          <a className='footer-links'>Customer Service</a>
-          <a className='footer-links'>Leadership Development</a>
+          <a
+            href='https://www.masteroapp.com/product-knowledge/'
+            className='footer-links'
+          >
+            Selling Skills
+          </a>
+          <a
+            href='https://www.masteroapp.com/product-knowledge/'
+            className='footer-links'
+          >
+            Product Knowledge
+          </a>
+          <a
+            href='https://www.masteroapp.com/product-knowledge/'
+            className='footer-links'
+          >
+            Customer Service
+          </a>
+          <a
+            href='https://www.masteroapp.com/product-knowledge/'
+            className='footer-links'
+          >
+            Leadership Development
+          </a>
         </Col>
         <Col lg={3} md={12}>
           <div className='footer-link-header'>Resources</div>
-          <a className='footer-links'>Webinars</a>
-          <a className='footer-links'>Whitepapers</a>
-          <a className='footer-links'>Featured Campaigns</a>
-          <a className='footer-links'>Videos</a>
+          <a
+            href='https://www.masteroapp.com/resources/'
+            className='footer-links'
+          >
+            Webinars
+          </a>
+          <a
+            href='https://www.masteroapp.com/resources/'
+            className='footer-links'
+          >
+            Whitepapers
+          </a>
+          <a
+            href='https://www.masteroapp.com/resources/'
+            className='footer-links'
+          >
+            Featured Campaigns
+          </a>
+          <a
+            href='https://www.masteroapp.com/resources/'
+            className='footer-links'
+          >
+            Videos
+          </a>
         </Col>
         <Col lg={3} md={12}>
           <div className='footer-link-header'>Blog</div>
-          <a className='footer-links'>How to assess workforce readiness</a>
-          <a className='footer-links'>Six ways to accelerate new sales hires</a>
-          <a className='footer-links'>How to close deals remotely</a>
+          <a href='https://www.masteroapp.com/blog/' className='footer-links'>
+            How to assess workforce readiness
+          </a>
+          <a href='https://www.masteroapp.com/blog/' className='footer-links'>
+            Six ways to accelerate new sales hires
+          </a>
+          <a href='https://www.masteroapp.com/blog/' className='footer-links'>
+            How to close deals remotely
+          </a>
         </Col>
       </Row>
       <Row className='my-4'>
@@ -43,12 +114,12 @@ const Footer = () => {
           © InspireOne Technologies Pvt. Ltd. All rights reserved.
         </Col>
         <Col lg={3} md={12}>
-          <a className='contact'>
-            <img src={contact} />
+          <a href='tel:+911244827214' className='contact'>
+            <img src={contact} alt='telephone' />
             <span>+91 124 482 7214</span>
           </a>
           <a className='contact' href='mailto:hello@masteroapp.com'>
-            <img src={mail} />
+            <img src={mail} alt='email' />
             <span>hello@masteroapp.com</span>
           </a>
         </Col>
