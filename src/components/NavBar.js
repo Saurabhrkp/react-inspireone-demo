@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 
 import logo from '../assets/logo.png';
+import './Navbar.css';
 
 const NavBar = () => {
   return (
@@ -10,12 +11,14 @@ const NavBar = () => {
         expand='lg'
         sticky='top'
         variant='dark'
-        style={{ fontSize: '13px' }}
+        style={{ fontSize: '13px', color: 'black' }}
+        id='navbar'
+        className='px-4 mx-auto'
       >
         <Navbar.Brand href='#home'>
           <img
             src={logo}
-            className='d-inline-block align-top mx-3'
+            className='d-inline-block align-top mx-4'
             alt='Master-O'
             style={{ width: '191px', height: 'auto', padding: '7px' }}
           />

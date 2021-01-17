@@ -1,0 +1,72 @@
+.subtitle {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 14.4px;
+  line-height: 16px;
+  margin-bottom: 32px;
+  text-size-adjust: 100%;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52.8px;
+  margin-bottom: 21.44px;
+  margin-top: 21.44px;
+  text-size-adjust: 100%;
+}
+
+.list-title {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 13.28px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-block-end: 22.1776px;
+  margin-block-start: 22.1776px;
+  text-size-adjust: 100%;
+}
+
+li {
+  color: rgb(255, 255, 255);
+  display: list-item;
+  font-family: 'Open Sans';
+  font-size: 12.8px;
+  line-height: 32px;
+  list-style-type: disc;
+  text-align: left;
+  text-size-adjust: 100%;
+}
+
+ul {
+  color: rgb(112, 112, 112);
+  display: block;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 32px;
+  list-style-type: disc;
+  margin-block-end: 16px;
+  margin-block-start: 16px;
+  margin-left: 0px;
+  padding-inline-start: 10px;
+  padding-left: 10px;
+  text-size-adjust: 100%;
+}
+
+.companies {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 19.2px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-block-end: 15.936px;
+  margin-block-start: 15.936px;
+  max-width: 600px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  text-size-adjust: 100%;
+}

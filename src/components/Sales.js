@@ -4,6 +4,8 @@ import { Row, Col } from 'react-bootstrap';
 import phone from '../assets/1-Phone.png';
 import client from '../assets/client.png';
 
+import './Sales.css';
+
 const Sales = () => {
   return (
     <>

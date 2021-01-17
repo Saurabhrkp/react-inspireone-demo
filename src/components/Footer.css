@@ -1,0 +1,52 @@
+.footer-links {
+  cursor: pointer;
+  font-family: 'Open Sans';
+  font-size: 11px;
+  font-weight: 400;
+  display: block;
+  line-height: 12.65px;
+  padding-bottom: 35px;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+}
+
+.footer-link-header {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+  margin-block-end: 30px;
+  margin-block-start: 0px;
+  margin-bottom: 30px;
+}
+
+.footer-copyright {
+  border-top-color: rgb(0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1px;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: 'Open Sans';
+  font-size: 11px;
+  line-height: 12.65px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.contact {
+  cursor: pointer;
+  display: block;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 11.5px;
+  padding-left: 1.5px;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-size-adjust: 100%;
+}
