@@ -16,7 +16,7 @@ const Sales = () => {
         </p>
         <Row>
           <Col sm={12} md={5} lg={5} className='text-center'>
-            <img src={phone} className='img-fluid' />
+            <img src={phone} className='img-fluid' alt='phone' />
           </Col>
           <Col sm={12} md={7} lg={7}>
             <h5 className='list-title'>
@@ -43,7 +43,7 @@ const Sales = () => {
         <h2 className='companies'>
           Leading organizations use Master-O to improve workforce productivity
         </h2>
-        <img src={client} className='img-fluid' />
+        <img src={client} className='img-fluid' alt='clients' />
       </Col>
     </>
   );
