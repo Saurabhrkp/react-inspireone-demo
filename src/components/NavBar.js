@@ -24,7 +24,7 @@ const Navbar = () => {
         }
       >
         <div className='container'>
-          <a className='navbar-brand' href='#'>
+          <a className='navbar-brand' href='/'>
             <img
               src={navbar ? LOGO_DARK : LOGO_LIGHT}
               className='d-inline-block align-top mx-4'
@@ -45,31 +45,49 @@ const Navbar = () => {
             <span className='navbar-toggler-icon'></span>
           </button>
           <div className='collapse navbar-collapse' id='navbarNavDropdown'>
-            <ul className='navbar-nav mr-auto'>
+            <ul className='navbar-nav mx-auto justify-content-center align-items-center'>
               <li className='nav-item'>
-                <a className='nav-link' aria-current='page' href='#'>
+                <a
+                  className='nav-link'
+                  aria-current='page'
+                  href='https://www.masteroapp.com/'
+                >
                   Home
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
+                <a
+                  className='nav-link'
+                  href='https://www.masteroapp.com/sales-enablement-platform'
+                >
                   Platform
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
+                <a
+                  className='nav-link'
+                  href='https://www.masteroapp.com/client-success/'
+                >
                   Client Success
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
+                <a
+                  className='nav-link'
+                  href='https://www.masteroapp.com/resources/'
+                >
                   Resources
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
+                <a className='nav-link' href='https://www.masteroapp.com/blog/'>
                   Blog
                 </a>
+              </li>
+              <li className='nav-item'>
+                <button className='btn btn-lg btn-orange'>
+                  Schedule a demo
+                </button>
               </li>
             </ul>
           </div>
