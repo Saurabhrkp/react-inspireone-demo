@@ -23,7 +23,11 @@ const Form = () => {
             Find out how you can remotely engage, enable & enhance your
             salesforce by gamifying your existing marketing & training content
           </h2>
-          <form className='needs-validation' noValidate onSubmit={handleSubmit}>
+          <form
+            className='needs-validation'
+            validated={validated.toString()}
+            onSubmit={handleSubmit}
+          >
             <div id='validationCustom01' className='py-4'>
               <input
                 className='form-control'
