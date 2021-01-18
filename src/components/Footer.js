@@ -6,9 +6,9 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <>
-      <div className='mt-5 mb-3'>
-        <div className='col'>
+    <div className='container'>
+      <div className='row mt-5 mb-3'>
+        <div className='col-lg-3 col'>
           <div className='footer-link-header'>Platform</div>
           <a
             href='https://www.masteroapp.com/sales-enablement-platform'
@@ -41,7 +41,7 @@ const Footer = () => {
             For Sales Leaders
           </a>
         </div>
-        <div className='col'>
+        <div className='col-lg-3 col-12'>
           <div className='footer-link-header'>Solutions</div>
           <a
             href='https://www.masteroapp.com/product-knowledge/'
@@ -68,7 +68,7 @@ const Footer = () => {
             Leadership Development
           </a>
         </div>
-        <div className='col'>
+        <div className='col-lg-3 col-12'>
           <div className='footer-link-header'>Resources</div>
           <a
             href='https://www.masteroapp.com/resources/'
@@ -95,7 +95,7 @@ const Footer = () => {
             Videos
           </a>
         </div>
-        <div className='col'>
+        <div className='col-lg-3 col-12'>
           <div className='footer-link-header'>Blog</div>
           <a href='https://www.masteroapp.com/blog/' className='footer-links'>
             How to assess workforce readiness
@@ -108,7 +108,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className='my-4'>
+      <div className='row my-4'>
         <div className='footer-copyright' lg={6} md={12}>
           © InspireOne Technologies Pvt. Ltd. All rights reserved.
         </div>
@@ -179,7 +179,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

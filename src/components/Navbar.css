@@ -1,0 +1,15 @@
+.navbar .navbar-nav .nav-link {
+  font-size: 0.8125rem;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 500;
+  padding: 0px 35px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}

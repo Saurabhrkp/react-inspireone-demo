@@ -7,8 +7,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Video />
-      <Form />
+      <div className='container my-4'>
+        <div className='row justify-content-between'>
+          <Video />
+          <Form />
+        </div>
+      </div>
       <Footer />
     </>
   );
