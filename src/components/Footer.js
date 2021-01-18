@@ -1,5 +1,4 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
 
 import contact from '../assets/contact.svg';
 import mail from '../assets/mail.svg';
@@ -8,8 +7,8 @@ import './Footer.css';
 const Footer = () => {
   return (
     <>
-      <Row className='mt-5 mb-3'>
-        <Col lg={3} md={12}>
+      <div className='mt-5 mb-3'>
+        <div className='col'>
           <div className='footer-link-header'>Platform</div>
           <a
             href='https://www.masteroapp.com/sales-enablement-platform'
@@ -41,8 +40,8 @@ const Footer = () => {
           >
             For Sales Leaders
           </a>
-        </Col>
-        <Col lg={3} md={12}>
+        </div>
+        <div className='col'>
           <div className='footer-link-header'>Solutions</div>
           <a
             href='https://www.masteroapp.com/product-knowledge/'
@@ -68,8 +67,8 @@ const Footer = () => {
           >
             Leadership Development
           </a>
-        </Col>
-        <Col lg={3} md={12}>
+        </div>
+        <div className='col'>
           <div className='footer-link-header'>Resources</div>
           <a
             href='https://www.masteroapp.com/resources/'
@@ -95,8 +94,8 @@ const Footer = () => {
           >
             Videos
           </a>
-        </Col>
-        <Col lg={3} md={12}>
+        </div>
+        <div className='col'>
           <div className='footer-link-header'>Blog</div>
           <a href='https://www.masteroapp.com/blog/' className='footer-links'>
             How to assess workforce readiness
@@ -107,13 +106,13 @@ const Footer = () => {
           <a href='https://www.masteroapp.com/blog/' className='footer-links'>
             How to close deals remotely
           </a>
-        </Col>
-      </Row>
-      <Row className='my-4'>
-        <Col className='footer-copyright' lg={6} md={12}>
+        </div>
+      </div>
+      <div className='my-4'>
+        <div className='footer-copyright' lg={6} md={12}>
           © InspireOne Technologies Pvt. Ltd. All rights reserved.
-        </Col>
-        <Col lg={3} md={12}>
+        </div>
+        <div className='col'>
           <a href='tel:+911244827214' className='contact'>
             <img src={contact} alt='telephone' />
             <span>+91 124 482 7214</span>
@@ -122,8 +121,8 @@ const Footer = () => {
             <img src={mail} alt='email' />
             <span>hello@masteroapp.com</span>
           </a>
-        </Col>
-        <Col lg={3} md={12} className='text-center'>
+        </div>
+        <div className='text-center'>
           <a
             href='https://www.linkedin.com/showcase/master-o'
             style={{ height: '19px', width: '13.2px', marginLeft: '40px' }}
@@ -178,8 +177,8 @@ const Footer = () => {
               </g>
             </svg>
           </a>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </>
   );
 };
