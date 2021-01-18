@@ -46,7 +46,7 @@ const Navbar = () => {
             aria-expanded='false'
             aria-label='Toggle navigation'
             onClick={() => {
-              setNavbarDark(true);
+              setNavbarDark(!navbarDark);
             }}
           >
             <span className='navbar-toggler-icon'></span>
