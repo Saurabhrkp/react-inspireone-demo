@@ -6,6 +6,8 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
+  const [navbarDark, setNavbarDark] = useState(false);
+
   const changeBackground = () => {
     if (window.scrollY >= 76) {
       setNavbar(true);
@@ -13,7 +15,9 @@ const Navbar = () => {
       setNavbar(false);
     }
   };
+
   window.addEventListener('scroll', changeBackground);
+
   return (
     <>
       <nav
@@ -41,11 +45,25 @@ const Navbar = () => {
             aria-controls='navbarNavDropdown'
             aria-expanded='false'
             aria-label='Toggle navigation'
+            onClick={() => {
+              setNavbarDark(true);
+            }}
           >
             <span className='navbar-toggler-icon'></span>
           </button>
           <div className='collapse navbar-collapse' id='navbarNavDropdown'>
             <ul className='navbar-nav mx-auto justify-content-center align-items-center'>
+              {navbarDark ? (
+                <a className='navbar-brand' href='/'>
+                  <img
+                    src={LOGO_DARK}
+                    className='d-inline-block align-top m-4'
+                    alt='Master-O'
+                    width='191px'
+                    height='auto'
+                  />
+                </a>
+              ) : null}
               <li className='nav-item'>
                 <a
                   className='nav-link'
