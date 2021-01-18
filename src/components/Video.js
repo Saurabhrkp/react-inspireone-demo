@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Sales = () => {
+const Video = () => {
   return <></>;
 };
 
-export default Sales;
+export default Video;

@@ -1,14 +1,14 @@
-import NavBar from './components/NavBar';
-import Sales from './components/Sales';
-import Demo from './components/Demo';
+import Navbar from './components/Navbar';
+import Video from './components/Video';
+import Form from './components/Form';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Sales />
-      <Demo />
+      <Navbar />
+      <Video />
+      <Form />
       <Footer />
     </>
   );
